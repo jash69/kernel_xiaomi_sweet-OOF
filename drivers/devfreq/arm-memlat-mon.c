@@ -33,7 +33,6 @@
 #include "governor_memlat.h"
 #include <linux/perf_event.h>
 #include <linux/of_device.h>
-#include <soc/qcom/scm.h>
 
 enum ev_index {
 	INST_IDX,
